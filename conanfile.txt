@@ -1,0 +1,15 @@
+[requires]
+boost_uuid/1.69.0@bincrafters/stable
+boost_program_options/1.69.0@bincrafters/stable
+sfml/2.5.1@bincrafters/stable
+
+[generators]
+cmake
+
+[options]
+boost:shared=True
+sfml:shared=True
+sfml:window=True
+sfml:graphics=True
+sfml:audio=False
+sfml:network=True
